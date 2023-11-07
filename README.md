@@ -42,7 +42,7 @@ Sass, ou *Syntactically Awesome Stylesheets*, é uma linguagem de folhas de esti
 
 ## ⭐ Layout completo 
 
-![Layout Completo]()
+![Layout Completo](https://github.com/DanielBarret0/AluraSpaSASS/blob/main/imagens/projeto%20completo.jpeg)
 
 # 🤯 Minha experiência
 
@@ -54,7 +54,7 @@ Foi meu primeiro contato com o SASS e foi muito gratificante aprender e aplicar 
 
 # 🖼️ Banner do VitrineDev
 <div align="center">
-<img src="#vitrinedev">
+<img src="https://github.com/DanielBarret0/AluraSpaSASS/blob/main/imagens/projeto%20completo.jpeg#vitrinedev">
 </div>
 
 # 🙋‍♂️ Autor
