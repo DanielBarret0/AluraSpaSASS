@@ -6,7 +6,7 @@ O principal objetivo desse projeto é cinhecer e aplicar fundamentos de SASS.
 | -------------  | --- |
 | :sparkles: Nome        | **Alura Spa**
 | :label: Tecnologias | <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-| :rocket: URL         | [AluraSpa]()
+| :rocket: URL         | [AluraSpa](https://aluraspasass.bohr.io)
 | :fire: Curso Alura     | [SASS: CSS sintaticamente espetacular](https://cursos.alura.com.br/course/sass-css-sintaticamente-espetacular)
 
 ## Detalhes do projeto
