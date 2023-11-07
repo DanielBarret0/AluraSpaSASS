@@ -1,0 +1,64 @@
+@import '../abstract/variaveis';
+
+#curiosidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+    .img-container{
+        width: 100%;
+        text-align: center;
+        img {
+            width: max-content;
+        }
+    }
+    
+    .textos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        text-align: left;
+        border-left: 2px solid $cor-terciaria;
+        padding: 0 2rem 0 2rem;
+        h3 {
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+
+    
+}
+
+@media screen and (max-width:800px) {
+    #curiosidades {
+        display: flex;
+        flex-direction: column;
+        .img-container{
+            width: 100%;
+            text-align: center;
+            img {
+                max-width: 360px;
+            }
+        }
+
+        .textos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            align-items: center;
+            text-align: left;
+            border-top: 2px solid $cor-terciaria;
+            border-left: none;
+            padding: 2rem 0 2rem 0;
+
+            color: $cor-primaria;
+            h3 {
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

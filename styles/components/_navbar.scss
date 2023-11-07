@@ -1,0 +1,29 @@
+@import '../abstract/variaveis';
+
+nav {
+    text-align: center;
+    ul {
+        @media screen and (max-width:800px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        li {
+            display: inline-block;
+            padding: 1rem;
+            a {
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: bold;
+                color: $cor-primaria;
+                &:hover {
+                    border-bottom: 2px solid $cor-secundaria;
+                }
+                @media screen and (max-width:420px) {
+                    font-size: $tamanho-do-texto / 3.5;
+                }
+            }
+        }
+    }
+}
+
